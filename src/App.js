@@ -9,10 +9,11 @@ function App() {
 
   return (
     <div className="App">
-      <PostItem/>
-      <PostItem/>
-      <PostItem/>
-      <PostItem/>
+      <PostItem post ={{id: 1, title:'JavaScript', body:'Язык программирования'}} />
+      <PostItem post ={{id: 2, title:'Python', body:'Язык программирования'}} />
+      <PostItem post ={{id: 3, title:'С', body:'Язык программирования'}} />
+      <PostItem post ={{id: 4, title:'C#', body:'Язык программирования'}} />
+      <PostItem post ={{id: 5, title:'C++', body:'Язык программирования'}} />
     </div>
   );
 }
